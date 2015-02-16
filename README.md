@@ -10,6 +10,9 @@ Predict probabilistic distribution of hourly rain given polarimetric radar measu
   brew install r
   ```
 
+2. [Download training and test data from Kaggle](http://www.kaggle.com/c/how-much-did-it-rain/data)
+and put in the Data directory
+
 2. Install Dependencies
 
   ```R
