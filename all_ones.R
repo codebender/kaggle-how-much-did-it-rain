@@ -8,4 +8,4 @@ submit <- subset(submit, select=c(1,71,2:70))
 names(submit) <- gsub("X", "Predicted", names(submit))
 colnames(submit)[2] <- "Predicted0"
 
-write.csv(submit, file = "Output/all_ones.csv", row.names = FALSE)
+write.csv(submit, file = "Output/all_ones.csv", row.names = FALSE, quote = FALSE)
